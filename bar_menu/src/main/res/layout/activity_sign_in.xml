@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn_Activity"
+    android:background="@color/backgroundActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="56sp"
+            android:layout_height="56sp"
+            app:srcCompat="@drawable/backBtn"
+            android:background="#FEDCE0"
+            android:layout_marginTop="64sp"
+            android:layout_marginStart="28sp"
+            android:contentDescription="back"
+            />
+
+        <ImageView
+            android:id="@+id/drink"
+            android:layout_width="471sp"
+            android:layout_height="383sp"
+            app:srcCompat="@drawable/drink"
+            android:layout_marginTop="105sp"
+            android:layout_marginLeft="-37sp"/>
+
+        <ImageView
+            android:id="@+id/LogInField"
+            android:layout_width="409dp"
+            android:layout_height="553sp"
+            android:layout_marginTop="336sp"
+            app:srcCompat="@drawable/loginfield" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32sp"
+            android:layout_marginTop="423sp"
+            android:fontFamily="@font/SFProText_Medium"
+            android:textColor="@color/colorText"
+            android:textSize="24sp"
+            android:text="Log in"
+            />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="312sp"
+            android:layout_height="56sp"
+            android:layout_marginLeft="32sp"
+            android:layout_marginTop="495sp"
+            android:drawableStart="@drawable/mail"
+            android:padding="10sp"
+            android:drawablePadding="10sp"
+            android:ems="15"
+            android:background="@drawable/rectangle_shape"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textSize="18sp"
+            android:text="stevejobs@gmail.com"
+            android:fontFamily="@font/SFProText_Medium"
+            android:textColor="@color/colorTextTwo"/>
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="312sp"
+            android:layout_height="56sp"
+            android:layout_marginTop="591sp"
+            android:layout_marginLeft="32sp"
+            android:ems="10"
+            android:drawableStart="@drawable/key"
+            android:drawablePadding="10sp"
+            android:padding="10sp"
+            android:background="@drawable/rectangle_shape"
+            android:minHeight="48dp"
+            android:text="12345678"
+            android:textSize="35sp"
+            android:textColor="@color/colorTextTwo"
+            android:fontFamily="@font/SFProText_Medium"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="184sp"
+            android:layout_marginTop="679sp"
+            android:background="@drawable/btn_gradient"
+            android:drawableEnd="@drawable/arrow"
+            android:fontFamily="@font/SFProText_Medium"
+            android:padding="15sp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backgroundActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/hand"
+            android:layout_marginLeft="-22sp"
+            android:layout_marginTop="1sp"
+            android:minWidth="368sp"
+            android:minHeight="256sp"
+            />
+
+        <ImageView
+            android:id="@+id/logotype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logoGroup"
+            android:layout_marginLeft="24sp"
+            android:layout_marginTop="217sp"
+            android:minWidth="61.85sp"
+            android:minHeight="56sp"/>
+
+        <TextView
+            android:id="@+id/mainText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24sp"
+            android:layout_marginTop="281sp"
+            android:textSize="24sp"
+            android:textFontWeight="500"
+            android:fontFamily="@font/ABeeZeeRegular"
+            android:text="Sour" />
+
+        <TextView
+            android:id="@+id/secondText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Best drink receipes"
+            android:fontFamily="@font/ABeeZeeItalic"
+            android:layout_marginLeft="24sp"
+            android:layout_marginTop="318sp"
+            android:textSize="14sp"
+            android:textFontWeight="400" />
+
+        <ImageView
+            android:id="@+id/drink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/drink"
+            android:layout_marginLeft="16sp"
+            android:layout_marginTop="261sp"
+            android:minWidth="375sp"
+            android:minHeight="307sp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/forgotPass"
+            android:layout_width="195.47sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85.85sp"
+            android:layout_marginTop="703.33sp"
+            android:fontFamily="@font/SFProText_Medium"
+            android:gravity="center"
+            android:text="Forgot password?"
+            android:textSize="18sp"
+
+            />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="17.67sp"
+            android:layout_height="16sp"
+            app:srcCompat="@drawable/facebook"
+            android:layout_marginTop="768sp"
+            android:layout_marginLeft="177.51sp"/>
+
+        <ImageView
+            android:id="@+id/inst"
+            android:layout_width="17.67sp"
+            android:layout_height="16sp"
+            android:layout_marginTop="768sp"
+            android:layout_marginLeft="137.75sp"
+            app:srcCompat="@drawable/instagram" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="17.67sp"
+            android:layout_height="16sp"
+            android:layout_marginTop="768sp"
+            android:layout_marginLeft="217.27sp"
+            app:srcCompat="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="97.19sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="778sp"
+            android:layout_marginLeft="24sp"
+            app:srcCompat="@drawable/line" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="97.19sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="778sp"
+            android:layout_marginLeft="254.81sp"
+            app:srcCompat="@drawable/line" />
+
+        <Button
+            android:id="@+id/SignBtn"
+            android:layout_width="229.71sp"
+            android:layout_height="48.24sp"
+            android:layout_marginLeft="68.18sp"
+            android:layout_marginTop="574.7sp"
+            android:background="@drawable/btn_grad"
+            android:fontFamily="@font/SFProText_Medium"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/LoginBtn"
+            android:layout_width="229.71sp"
+            android:layout_height="48.24sp"
+            android:layout_marginTop="639.01sp"
+            android:layout_marginLeft="68.18sp"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_style_2"
+            android:fontFamily="@font/SFProText_Medium"
+            android:textSize="18sp"
+            android:textColor="@color/text_color"
+            />
+
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
