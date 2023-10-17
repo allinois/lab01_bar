@@ -2,8 +2,7 @@ package com.example.notes;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-
-
+import com.google.gson.Gson;
 
 
 public class NotesReader {
